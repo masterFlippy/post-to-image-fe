@@ -55,7 +55,7 @@ const textStyle = {
 };
 
 export default function MainContent() {
-  const id = "testing";
+  const id = "testing12";
   const [post, setPost] = React.useState("");
   const [image, setImage] = React.useState("");
   const [refetch, setRefetch] = React.useState(true);
@@ -74,7 +74,7 @@ export default function MainContent() {
   });
 
   const { data } = useQuery({
-    queryKey: ["image"],
+    queryKey: ["image23"],
     refetchInterval: 3000,
     refetchIntervalInBackground: true,
     enabled: refetch,
